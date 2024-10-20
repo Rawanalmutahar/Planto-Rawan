@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99C8321B2CC4D53100E803D7 /* Planto_RawanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C8321A2CC4D53100E803D7 /* Planto_RawanApp.swift */; };
+		99C8321D2CC4D53100E803D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C8321C2CC4D53100E803D7 /* ContentView.swift */; };
+		99C8321F2CC4D53200E803D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C8321E2CC4D53200E803D7 /* Assets.xcassets */; };
+		99C832222CC4D53200E803D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C832212CC4D53200E803D7 /* Preview Assets.xcassets */; };
+		99C8322C2CC4D53200E803D7 /* Planto_RawanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C8322B2CC4D53200E803D7 /* Planto_RawanTests.swift */; };
+		99C832362CC4D53200E803D7 /* Planto_RawanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C832352CC4D53200E803D7 /* Planto_RawanUITests.swift */; };
+		99C832382CC4D53200E803D7 /* Planto_RawanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C832372CC4D53200E803D7 /* Planto_RawanUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99C832282CC4D53200E803D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99C8320F2CC4D53100E803D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C832162CC4D53100E803D7;
+			remoteInfo = "Planto-Rawan";
+		};
+		99C832322CC4D53200E803D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99C8320F2CC4D53100E803D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C832162CC4D53100E803D7;
+			remoteInfo = "Planto-Rawan";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99C832172CC4D53100E803D7 /* Planto-Rawan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Planto-Rawan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C8321A2CC4D53100E803D7 /* Planto_RawanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planto_RawanApp.swift; sourceTree = "<group>"; };
+		99C8321C2CC4D53100E803D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		99C8321E2CC4D53200E803D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99C832212CC4D53200E803D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99C832272CC4D53200E803D7 /* Planto-RawanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Planto-RawanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C8322B2CC4D53200E803D7 /* Planto_RawanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planto_RawanTests.swift; sourceTree = "<group>"; };
+		99C832312CC4D53200E803D7 /* Planto-RawanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Planto-RawanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C832352CC4D53200E803D7 /* Planto_RawanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planto_RawanUITests.swift; sourceTree = "<group>"; };
+		99C832372CC4D53200E803D7 /* Planto_RawanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planto_RawanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99C832142CC4D53100E803D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C832242CC4D53200E803D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C8322E2CC4D53200E803D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99C8320E2CC4D53100E803D7 = {
+			isa = PBXGroup;
+			children = (
+				99C832192CC4D53100E803D7 /* Planto-Rawan */,
+				99C8322A2CC4D53200E803D7 /* Planto-RawanTests */,
+				99C832342CC4D53200E803D7 /* Planto-RawanUITests */,
+				99C832182CC4D53100E803D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99C832182CC4D53100E803D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99C832172CC4D53100E803D7 /* Planto-Rawan.app */,
+				99C832272CC4D53200E803D7 /* Planto-RawanTests.xctest */,
+				99C832312CC4D53200E803D7 /* Planto-RawanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99C832192CC4D53100E803D7 /* Planto-Rawan */ = {
+			isa = PBXGroup;
+			children = (
+				99C8321A2CC4D53100E803D7 /* Planto_RawanApp.swift */,
+				99C8321C2CC4D53100E803D7 /* ContentView.swift */,
+				99C8321E2CC4D53200E803D7 /* Assets.xcassets */,
+				99C832202CC4D53200E803D7 /* Preview Content */,
+			);
+			path = "Planto-Rawan";
+			sourceTree = "<group>";
+		};
+		99C832202CC4D53200E803D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				99C832212CC4D53200E803D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99C8322A2CC4D53200E803D7 /* Planto-RawanTests */ = {
+			isa = PBXGroup;
+			children = (
+				99C8322B2CC4D53200E803D7 /* Planto_RawanTests.swift */,
+			);
+			path = "Planto-RawanTests";
+			sourceTree = "<group>";
+		};
+		99C832342CC4D53200E803D7 /* Planto-RawanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99C832352CC4D53200E803D7 /* Planto_RawanUITests.swift */,
+				99C832372CC4D53200E803D7 /* Planto_RawanUITestsLaunchTests.swift */,
+			);
+			path = "Planto-RawanUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99C832162CC4D53100E803D7 /* Planto-Rawan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C8323B2CC4D53200E803D7 /* Build configuration list for PBXNativeTarget "Planto-Rawan" */;
+			buildPhases = (
+				99C832132CC4D53100E803D7 /* Sources */,
+				99C832142CC4D53100E803D7 /* Frameworks */,
+				99C832152CC4D53100E803D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Planto-Rawan";
+			productName = "Planto-Rawan";
+			productReference = 99C832172CC4D53100E803D7 /* Planto-Rawan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99C832262CC4D53200E803D7 /* Planto-RawanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C8323E2CC4D53200E803D7 /* Build configuration list for PBXNativeTarget "Planto-RawanTests" */;
+			buildPhases = (
+				99C832232CC4D53200E803D7 /* Sources */,
+				99C832242CC4D53200E803D7 /* Frameworks */,
+				99C832252CC4D53200E803D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99C832292CC4D53200E803D7 /* PBXTargetDependency */,
+			);
+			name = "Planto-RawanTests";
+			productName = "Planto-RawanTests";
+			productReference = 99C832272CC4D53200E803D7 /* Planto-RawanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99C832302CC4D53200E803D7 /* Planto-RawanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C832412CC4D53200E803D7 /* Build configuration list for PBXNativeTarget "Planto-RawanUITests" */;
+			buildPhases = (
+				99C8322D2CC4D53200E803D7 /* Sources */,
+				99C8322E2CC4D53200E803D7 /* Frameworks */,
+				99C8322F2CC4D53200E803D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99C832332CC4D53200E803D7 /* PBXTargetDependency */,
+			);
+			name = "Planto-RawanUITests";
+			productName = "Planto-RawanUITests";
+			productReference = 99C832312CC4D53200E803D7 /* Planto-RawanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99C8320F2CC4D53100E803D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					99C832162CC4D53100E803D7 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					99C832262CC4D53200E803D7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 99C832162CC4D53100E803D7;
+					};
+					99C832302CC4D53200E803D7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 99C832162CC4D53100E803D7;
+					};
+				};
+			};
+			buildConfigurationList = 99C832122CC4D53100E803D7 /* Build configuration list for PBXProject "Planto-Rawan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99C8320E2CC4D53100E803D7;
+			productRefGroup = 99C832182CC4D53100E803D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99C832162CC4D53100E803D7 /* Planto-Rawan */,
+				99C832262CC4D53200E803D7 /* Planto-RawanTests */,
+				99C832302CC4D53200E803D7 /* Planto-RawanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99C832152CC4D53100E803D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C832222CC4D53200E803D7 /* Preview Assets.xcassets in Resources */,
+				99C8321F2CC4D53200E803D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C832252CC4D53200E803D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C8322F2CC4D53200E803D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99C832132CC4D53100E803D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C8321D2CC4D53100E803D7 /* ContentView.swift in Sources */,
+				99C8321B2CC4D53100E803D7 /* Planto_RawanApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C832232CC4D53200E803D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C8322C2CC4D53200E803D7 /* Planto_RawanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C8322D2CC4D53200E803D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C832382CC4D53200E803D7 /* Planto_RawanUITestsLaunchTests.swift in Sources */,
+				99C832362CC4D53200E803D7 /* Planto_RawanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99C832292CC4D53200E803D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99C832162CC4D53100E803D7 /* Planto-Rawan */;
+			targetProxy = 99C832282CC4D53200E803D7 /* PBXContainerItemProxy */;
+		};
+		99C832332CC4D53200E803D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99C832162CC4D53100E803D7 /* Planto-Rawan */;
+			targetProxy = 99C832322CC4D53200E803D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99C832392CC4D53200E803D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99C8323A2CC4D53200E803D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99C8323C2CC4D53200E803D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Planto-Rawan/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rawan.Planto-Rawan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99C8323D2CC4D53200E803D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Planto-Rawan/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rawan.Planto-Rawan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99C8323F2CC4D53200E803D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rawan.Planto-RawanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planto-Rawan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Planto-Rawan";
+			};
+			name = Debug;
+		};
+		99C832402CC4D53200E803D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rawan.Planto-RawanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planto-Rawan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Planto-Rawan";
+			};
+			name = Release;
+		};
+		99C832422CC4D53200E803D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rawan.Planto-RawanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Planto-Rawan";
+			};
+			name = Debug;
+		};
+		99C832432CC4D53200E803D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rawan.Planto-RawanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Planto-Rawan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99C832122CC4D53100E803D7 /* Build configuration list for PBXProject "Planto-Rawan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C832392CC4D53200E803D7 /* Debug */,
+				99C8323A2CC4D53200E803D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C8323B2CC4D53200E803D7 /* Build configuration list for PBXNativeTarget "Planto-Rawan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C8323C2CC4D53200E803D7 /* Debug */,
+				99C8323D2CC4D53200E803D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C8323E2CC4D53200E803D7 /* Build configuration list for PBXNativeTarget "Planto-RawanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C8323F2CC4D53200E803D7 /* Debug */,
+				99C832402CC4D53200E803D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C832412CC4D53200E803D7 /* Build configuration list for PBXNativeTarget "Planto-RawanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C832422CC4D53200E803D7 /* Debug */,
+				99C832432CC4D53200E803D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99C8320F2CC4D53100E803D7 /* Project object */;
+}
