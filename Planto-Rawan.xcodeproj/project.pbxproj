@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		99B479252CC788A900FEB11D /* the tgird page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B479242CC788A900FEB11D /* the tgird page.swift */; };
+		99B479252CC788A900FEB11D /* thetgirdpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B479242CC788A900FEB11D /* thetgirdpage.swift */; };
+		99B4792F2CC79D8100FEB11D /* finalpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B4792E2CC79D8100FEB11D /* finalpage.swift */; };
 		99C8321B2CC4D53100E803D7 /* Planto_RawanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C8321A2CC4D53100E803D7 /* Planto_RawanApp.swift */; };
 		99C8321D2CC4D53100E803D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C8321C2CC4D53100E803D7 /* ContentView.swift */; };
 		99C8321F2CC4D53200E803D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C8321E2CC4D53200E803D7 /* Assets.xcassets */; };
@@ -37,7 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		99B479242CC788A900FEB11D /* the tgird page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "the tgird page.swift"; sourceTree = "<group>"; };
+		99B479242CC788A900FEB11D /* thetgirdpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thetgirdpage.swift; sourceTree = "<group>"; };
+		99B4792E2CC79D8100FEB11D /* finalpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalpage.swift; sourceTree = "<group>"; };
 		99C832172CC4D53100E803D7 /* Planto-Rawan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Planto-Rawan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C8321A2CC4D53100E803D7 /* Planto_RawanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planto_RawanApp.swift; sourceTree = "<group>"; };
 		99C8321C2CC4D53100E803D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,7 +105,8 @@
 				99C8321A2CC4D53100E803D7 /* Planto_RawanApp.swift */,
 				99C8321C2CC4D53100E803D7 /* ContentView.swift */,
 				99C832462CC62A1400E803D7 /* SwiftUIView 2 planto.swift */,
-				99B479242CC788A900FEB11D /* the tgird page.swift */,
+				99B479242CC788A900FEB11D /* thetgirdpage.swift */,
+				99B4792E2CC79D8100FEB11D /* finalpage.swift */,
 				99C832482CC62A2300E803D7 /* swift planto 2.swift */,
 				99C8321E2CC4D53200E803D7 /* Assets.xcassets */,
 				99C832202CC4D53200E803D7 /* Preview Content */,
@@ -268,9 +271,10 @@
 			files = (
 				99C832492CC62A2300E803D7 /* swift planto 2.swift in Sources */,
 				99C832472CC62A1400E803D7 /* SwiftUIView 2 planto.swift in Sources */,
+				99B4792F2CC79D8100FEB11D /* finalpage.swift in Sources */,
 				99C8321D2CC4D53100E803D7 /* ContentView.swift in Sources */,
 				99C8321B2CC4D53100E803D7 /* Planto_RawanApp.swift in Sources */,
-				99B479252CC788A900FEB11D /* the tgird page.swift in Sources */,
+				99B479252CC788A900FEB11D /* thetgirdpage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
