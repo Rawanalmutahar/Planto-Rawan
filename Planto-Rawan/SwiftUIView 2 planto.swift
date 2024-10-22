@@ -63,9 +63,10 @@ struct SetReminderView: View {
                 }
                 
                 
+                
                 .background(Color(red: 28/255, green: 28/255, blue: 30/255)) // Background color matching #1C1C1E
                 .cornerRadius(10) // Rounded corners
-                .padding([.leading, .bottom, .trailing]) // Add horizontal padding
+                .padding(.bottom, 250) // Add horizontal padding
                 .padding(.top) // Add some top padding to separate it from the list
             }
             .background(Color.black.edgesIgnoringSafeArea(.all)) // Black background for the whole page
