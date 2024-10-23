@@ -7,6 +7,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var modalIsPresented = false
     var body: some View {
         ZStack {
             Color.black
@@ -72,6 +73,7 @@ struct ContentView: View {
                 // Button to set plant reminder
                 VStack {
                     Button(action: {
+                        modalIsPresented=true
                         // Action for button tap
                     }) {
                         Text("Set Plant Reminder")
@@ -80,7 +82,9 @@ struct ContentView: View {
                             .frame(width: 280, height: 40)
                             .background(Color(red:0.16,green:0.88,blue:0.66))
                             .cornerRadius(10) // Set corner radius to 10
-                    }
+                    }.sheet(isPresented: $modalIsPresented, content: {
+                        SetReminderView()
+                    })
                     .position(x: 190, y: -95) // Position the button
                 }
 

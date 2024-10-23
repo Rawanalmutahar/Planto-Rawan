@@ -13,12 +13,7 @@ struct CFinalPage: View {
                 .edgesIgnoringSafeArea(.all) // Set the background to black
             
             // Background image (transparent) positioned at (x: 180, y: 240)
-            Image("trnsparent")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 219, height: 227)
-                .position(x: 180, y: 240)
-                .padding() // Optional padding
+           
             
             VStack {
                 Spacer() // Push content down
@@ -40,7 +35,7 @@ struct CFinalPage: View {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 219, height: 227)
-                    .position(x: 180, y: 140)
+                    .position(x: 168, y: 140)
                     .padding()
 
                 // Text below the plants picture

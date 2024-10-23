@@ -59,7 +59,7 @@ struct SetReminderView: View {
                         .font(.body)
                         .foregroundColor(Color(red: 234/255, green: 113/255, blue: 102/255)) // Set text color to red (#EA7166)
                         .padding()
-                        .frame(maxWidth: .infinity)
+                        .frame(width: 355)
                 }
                 
                 
