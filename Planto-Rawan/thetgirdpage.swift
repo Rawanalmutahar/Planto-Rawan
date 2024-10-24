@@ -24,9 +24,10 @@ struct MyPlantsView: View {
                         .fontWeight(.bold)
                         .foregroundColor(.white)
                         .frame(height: 50)
-                        .padding(.bottom, -19)
-                }
+                        .padding(.bottom, -35)
+                
                 List {
+            
                     Section {
                         ForEach(plants.indices, id: \.self) { index in
                             PlantRow(plant: plants[index], isChecked: $checkedStates[index])
@@ -41,6 +42,7 @@ struct MyPlantsView: View {
                                 }
                         }
                     }.frame(height: 97)
+                }
                 }
                 
                 .listStyle(InsetGroupedListStyle())
