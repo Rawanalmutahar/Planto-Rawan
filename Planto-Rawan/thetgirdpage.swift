@@ -24,7 +24,7 @@ struct MyPlantsView: View {
                         .fontWeight(.bold)
                         .foregroundColor(.white)
                         .frame(height: 50)
-                        .padding(.bottom, -35)
+                        .padding(.bottom, -30)
                 
                 List {
             
