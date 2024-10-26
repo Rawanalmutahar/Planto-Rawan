@@ -1,9 +1,9 @@
 import SwiftUI
 
 struct SetReminderView: View {
-    @Environment(\.dismiss) var dismiss // Add this to dismiss the current view
+    @Environment(\.dismiss) var dismiss // This can still be used if needed
     @StateObject private var viewModel = PlantViewModel()
-
+    
     var body: some View {
         NavigationStack {
             List {
@@ -33,24 +33,32 @@ struct SetReminderView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
-                    navigationButton("Cancel") { dismiss() }
+                    Button("Cancel") { dismiss() } // Cancel action
+                        .foregroundColor(Color(red: 41/255, green: 223/255, blue: 168/255)) // Green color
                 }
                 
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    navigationButton("Save") {
+                    Button("Save") {
                         viewModel.savePlant()
-                        dismiss() // Dismiss the sheet view when saving
+                        // Navigate directly to MyPlantsView
+                        navigateToMyPlantsView()
                     }
+                    .foregroundColor(Color(red: 41/255, green: 223/255, blue: 168/255)) // Green color
                 }
             }
         }
     }
     
-    // Helper function for the buttons
-    private func navigationButton(_ title: String, action: @escaping () -> Void) -> some View {
-        Button(title, action: action)
-            .foregroundColor(Color(red: 41/255, green: 223/255, blue: 168/255))
-            .font(title == "Save" ? .body.bold() : .body)
+    // Function to navigate to MyPlantsView
+    private func navigateToMyPlantsView() {
+        // Present MyPlantsView without a sheet
+        let myPlantsView = MyPlantsView()
+        let hostingController = UIHostingController(rootView: myPlantsView)
+        
+        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
+            windowScene.windows.first?.rootViewController = hostingController
+            windowScene.windows.first?.makeKeyAndVisible()
+        }
     }
 
     // Picker for Room

@@ -1,9 +1,3 @@
-//  ContentView.swift
-//  Planto-Rawan
-//
-//  Created by Rawan on 17/04/1446 AH.
-//
-
 import SwiftUI
 
 struct CFinalPage: View {
@@ -11,9 +5,6 @@ struct CFinalPage: View {
         ZStack {
             Color.black
                 .edgesIgnoringSafeArea(.all) // Set the background to black
-            
-            // Background image (transparent) positioned at (x: 180, y: 240)
-           
             
             VStack {
                 Spacer() // Push content down
@@ -24,8 +15,6 @@ struct CFinalPage: View {
                         .foregroundColor(.white)
                         .font(.system(size: 36, weight: .bold))
                         .padding(.trailing, 140.0)
-
-                
                 }
 
                 Spacer()
@@ -66,18 +55,17 @@ struct CFinalPage: View {
                             Text("New Reminder")
                         }
                         .foregroundColor(Color(red: 41/255, green: 223/255, blue: 168/255)) // Color #29DFA8
-                        .padding(.trailing,200)
+                        .padding(.trailing, 200)
                     }
                     Spacer()
                 }
-                    
-                
-                // Removed button section
 
                 Spacer() // Push content up
             }
             .padding(.top, 20) // Add some top padding to the VStack
         }
+        .navigationBarBackButtonHidden(true) // Hide the back button
+        .navigationTitle("") // Optionally set title to empty
     }
 }
 

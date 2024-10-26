@@ -6,31 +6,38 @@ struct MyPlantsView: View {
         Plant(name: "Monstera", room: "Kitchen", sunlight: "Full sun", waterAmount: "20-50 ml")
     ]
     
-    @State private var checkedStates: [Bool] = [false, false] // For the checkboxes
-    
+    @State private var checkedStates: [Bool] = [] // For the checkboxes
+    @State private var navigateToFinalPage = false // State for navigation
+
+    init() {
+        // Initialize the checked states based on the number of plants
+        _checkedStates = State(initialValue: Array(repeating: false, count: plants.count))
+    }
+
     var body: some View {
         NavigationView {
             VStack {
                 // Separate stack for the "Today" text
-               
                 Rectangle()
                     .fill(Color.gray)
                     .frame(height: 0.2)
-                    .padding(.leading,18.0)
+                    .padding(.leading, 18.0)
+                
                 VStack {
                     Text("Today") // Header text
-                        .padding(.leading,-180)
+                        .padding(.leading, -180)
                         .font(.title)
                         .fontWeight(.bold)
                         .foregroundColor(.white)
                         .frame(height: 50)
                         .padding(.bottom, -30)
                 
-                List {
-            
-                    Section {
-                        ForEach(plants.indices, id: \.self) { index in
-                            PlantRow(plant: plants[index], isChecked: $checkedStates[index])
+                    List {
+                        Section {
+                            ForEach(plants.indices, id: \.self) { index in
+                                PlantRow(plant: plants[index], isChecked: $checkedStates[index]) {
+                                    checkAllTasks() // Check if all tasks are checked
+                                }
                                 .swipeActions {
                                     Button(role: .destructive) {
                                         // Action to delete the plant
@@ -40,15 +47,14 @@ struct MyPlantsView: View {
                                         Label("Delete", systemImage: "trash")
                                     }
                                 }
-                        }
-                    }.frame(height: 97)
+                            }
+                        }.frame(height: 97)
+                    }
                 }
-                }
-                
                 .listStyle(InsetGroupedListStyle())
                 .background(Color.black) // Ensure the list background is black
                 .scrollContentBackground(.hidden) // Hides default list background
-                
+
                 // New Reminder Button at the bottom
                 HStack {
                     Spacer()
@@ -66,8 +72,18 @@ struct MyPlantsView: View {
                 }
             }
             .navigationTitle("My Plants 🌱")
-//            .foregroundColor(.white)
-//            .background(Color.black.edgesIgnoringSafeArea(.all)) // Black background for the whole page
+            .background(
+                NavigationLink(destination: CFinalPage(), isActive: $navigateToFinalPage) {
+                    EmptyView() // Invisible link for navigation
+                }
+            )
+        }
+    }
+
+    // Function to check if all tasks are checked
+    private func checkAllTasks() {
+        if checkedStates.allSatisfy({ $0 }) { // Check if all are true
+            navigateToFinalPage = true // Navigate to CFinalPage
         }
     }
 }
@@ -75,7 +91,8 @@ struct MyPlantsView: View {
 struct PlantRow: View {
     var plant: Plant
     @Binding var isChecked: Bool
-    
+    var onChecked: () -> Void // Closure to handle checking
+
     var body: some View {
         VStack(alignment: .leading) {
             // Row for room name with location icon
@@ -88,11 +105,11 @@ struct PlantRow: View {
                     .foregroundColor(Color.gray) // Gray text for the room name
             }
             
-            
             HStack {
                 // Checkmark circle that toggles when clicked
                 Button(action: {
                     isChecked.toggle()
+                    onChecked() // Call the closure to check for all tasks
                 }) {
                     Image(systemName: isChecked ? "checkmark.circle.fill" : "circle")
                         .foregroundColor(isChecked ? Color(red: 41/255, green: 223/255, blue: 168/255) : .gray)
@@ -134,11 +151,10 @@ struct PlantRow: View {
                 .background(Color.gray) // Set the color of the divider
                 .frame(height: 1) // Set the height of the divider
                 .padding(.horizontal, -20) // Adjust padding to make it extend fully
-
         }
         
         .listRowBackground(Color.black) // Ensure row background is black
-    } 
+    }
 }
 
 // Model for Plant
