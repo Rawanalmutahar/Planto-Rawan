@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct CFinalPage: View {
+    @State private var showingSetReminderView = false // State variable to control the sheet presentation
+    
     var body: some View {
         ZStack {
             Color.black
@@ -48,7 +50,7 @@ struct CFinalPage: View {
                 HStack {
                     Spacer()
                     Button(action: {
-                        // Action for new reminder
+                        showingSetReminderView = true // Show the SetReminderView when the button is tapped
                     }) {
                         HStack {
                             Image(systemName: "plus.circle.fill")
@@ -66,6 +68,9 @@ struct CFinalPage: View {
         }
         .navigationBarBackButtonHidden(true) // Hide the back button
         .navigationTitle("") // Optionally set title to empty
+        .sheet(isPresented: $showingSetReminderView) {
+            SetReminderView() // Present the SetReminderView as a sheet
+        }
     }
 }
 

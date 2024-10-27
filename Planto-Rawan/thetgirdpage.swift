@@ -8,6 +8,7 @@ struct MyPlantsView: View {
     
     @State private var checkedStates: [Bool] = [] // For the checkboxes
     @State private var navigateToFinalPage = false // State for navigation
+    @State private var showingSetReminderView = false // State for showing the SetReminderView
 
     init() {
         // Initialize the checked states based on the number of plants
@@ -59,7 +60,7 @@ struct MyPlantsView: View {
                 HStack {
                     Spacer()
                     Button(action: {
-                        // Action for new reminder
+                        showingSetReminderView = true // Show the SetReminderView when the button is tapped
                     }) {
                         HStack {
                             Image(systemName: "plus.circle.fill")
@@ -77,6 +78,9 @@ struct MyPlantsView: View {
                     EmptyView() // Invisible link for navigation
                 }
             )
+            .sheet(isPresented: $showingSetReminderView) {
+                SetReminderView() // Present the SetReminderView as a sheet
+            }
         }
     }
 

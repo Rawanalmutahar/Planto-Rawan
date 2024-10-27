@@ -73,7 +73,7 @@ struct ContentView: View {
                 // Button to set plant reminder
                 VStack {
                     Button(action: {
-                        modalIsPresented=true
+                        modalIsPresented = true
                         // Action for button tap
                     }) {
                         Text("Set Plant Reminder")
