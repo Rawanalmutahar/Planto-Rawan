@@ -17,6 +17,7 @@ struct TodayReminder: View {
                     .fill(Color.gray)
                     .frame(height: 0.2)
                     .padding(.leading, 18.0)
+                    .padding(.top,8)
 
                 VStack {
                     // Add a spacer to push the "Today" text down
@@ -121,6 +122,7 @@ struct PlantRow: View {
                             if let index = viewModel.reminders.firstIndex(where: { $0.id == reminder.id }) {
                                 viewModel.reminders[index].isChecked.toggle()
                             }
+
                         }
                     
                     Text(reminder.name)
@@ -150,10 +152,7 @@ struct PlantRow: View {
                     .cornerRadius(6)
                 }
 
-                Divider()
-                    .background(Color.gray)
-                    .frame(height: 1)
-                    .padding(.horizontal, -20)
+
             }
             .padding(.bottom, 10)
             .listRowBackground(Color.black)
@@ -166,7 +165,7 @@ struct PlantRow: View {
 struct AllRemindersCompletedView: View {
     var body: some View {
         ZStack {
-            Image("comp")
+            Image("Group 4")
                 .resizable()
                 .frame(width: 219, height: 227)
                 .position(x: 180, y: 188)
@@ -175,11 +174,11 @@ struct AllRemindersCompletedView: View {
                 .bold()
                 .font(.title)
                 .foregroundColor(.white)
-                .position(x: 188, y: 350)
+                .position(x: 188, y: 330)
 
             Text("All Reminders Completed")
                 .foregroundColor(.gray)
-                .position(x: 188, y: 380)
+                .position(x: 188, y: 360)
         }
     }
 }
